@@ -1,0 +1,46 @@
+/* Write your code here. */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  max-width: 1140px;
+}
+
+.selected-image {
+  border-radius: 21px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  color: #1e293b;
+  padding-left: 28px;
+  padding-top: 28px;
+  margin-left: 18px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 350;
+  color: #64748b;
+  padding-left: 28px;
+  padding-top: 28px;
+  margin-left: 18px;
+}
+
+.thumbnails-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
